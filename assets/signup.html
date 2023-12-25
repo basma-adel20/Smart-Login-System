@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="shortcut icon" href="../images/right-to-bracket-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet"></head>
+<body>
+
+    <div class="container text-center my-5">
+        <div class="login w-75 m-auto p-5 ">
+            <h1>Smart Login System</h1>
+            <input id="signNameInput" class="form-control my-3" placeholder="Enter your name" type="text" required>
+            <input id="signEmailInput" class="form-control my-3" placeholder="Enter your email" type="text" required>
+            <input id="signPassInput" class="form-control my-3" placeholder="Enter your password" type="password" required>
+
+            <p id="exist"><span class="text-success m-3 d-none">  </span></p>
+
+            <button onclick="signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white signup ">
+                Don’t have an account? 
+                <a class="text-white" href="../index.html">
+                    Signin
+                </a>
+            </p>
+
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

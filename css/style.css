@@ -1,0 +1,61 @@
+body{
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.login{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);}
+
+
+.login h1{
+    color: #17A2B8;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+::placeholder{
+    color: #B6B6B6 !important;
+}
+
+
+.login .signup a{
+    text-decoration: none;
+}
+
+
+
+.login .signup a:hover{
+    text-decoration: underline;
+}
+
+.text-success {
+    color: rgb(40, 167, 69) !important;
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none ;
+}
+
+
+@media (min-width: 1200px){
+.container {
+   width: 1140px;
+}
+
+}
